@@ -1,0 +1,102 @@
+*{
+  margin: 0 auto;
+  padding: 0%;
+  list-style-type: none;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+.logo .navlogo{
+  width: 400px;
+  margin-top: 0px;
+  margin-left: -450px;
+}
+
+nav .logo {
+  display: none;
+  background: transparent;
+}
+
+nav ul {
+  display: flex;
+  margin-right: -400px;
+}
+
+nav ul li a {
+  color: black;
+  display: block;
+  margin: 0 30px;
+  font-weight: 600;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: grey;
+}
+
+.menu {
+  display: none;
+  height: fit-content;
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.menu:hover {
+  background:plum;
+}
+
+.menu .line {
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+  background: #ffffff;
+}
+
+body{
+  background:url("img/greyy.jpg");
+  background-size: cover;
+}
+
+.button1{
+  width: 100px;
+  height: 40px;
+  background-color: gray;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin: 50px 0 0 1150px;
+  border: none;
+}
+
+body .header1{
+  margin: 30px 0 0 850px;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.polaroid {
+  width: 20%;
+  background-color: gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px 0 0 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
